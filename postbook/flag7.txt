@@ -1,0 +1,9 @@
+^FLAG^9bcdeaebbd1b784cbf5135233f8a0641a6f5f0dd66e406ea75d69aba085a9dbc$FLAG$
+
+Deleteing  a post that was not mine,
+
+/index.php?page=delete.php&id={MD5HASH}
+
+Replaced the MD5 Hash with a post ID that was not from the user I was logged in as.
+
+

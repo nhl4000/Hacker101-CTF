@@ -1,0 +1,7 @@
+^FLAG^10e4f3a50aa7d136686b5afe72d77ef89c7c229ccb26131555053b9a2b1b2956$FLAG$
+
+Had to Google for help.
+
+Iterate through the posts: 1,2,3,4 (Forbidden), others were (Not Found).
+
+Using the /edit/4 link I was able to access its content which contained the flag.

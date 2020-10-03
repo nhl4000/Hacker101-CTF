@@ -1,0 +1,25 @@
+^FLAG^61d126c4586ba4cb1524ad32fd8f86764b56319747eb85d38a314add376450e8$FLAG$
+
+
+Never queried GraphQL before, was able to use the given IDE to get the fields for the table : user.
+
+{
+  user {
+    edges {
+      node {
+        id
+        username
+        bugs {
+          edges {
+          	node {
+              id
+              text
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+Flag was in the text field for bugs in the user victim.

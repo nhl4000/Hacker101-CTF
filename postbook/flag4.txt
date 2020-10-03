@@ -1,0 +1,3 @@
+^FLAG^cbcc76f302197011de5a710d069e345b455ff92f7573b5ff90d5c70ca842dccb$FLAG$
+
+Changed cookie to be id 1 MD5 hashed

@@ -1,0 +1,7 @@
+^FLAG^a4c8dac22a09a1af7d502d27e8dad599a91af27c0875ccb21574742c8f48c5da$FLAG$
+
+Had to Google for last 2 flags... unsure how i would of found this one. maybe i removed a post that explained something.
+
+viewing mystery/hidden post id 945
+
+/index.php?page=view.php&id=945

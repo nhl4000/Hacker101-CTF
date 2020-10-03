@@ -1,0 +1,36 @@
+^FLAG^e9dee69c122d2e0017f76267d9b8a593d6998b389077e565fa98b276c0e6c2ba$FLAG$
+
+Decompiled the code and noticed
+
+URL: "http://34.74.105.127/5aee34db42/appRoot"
+
+"?","SHA-256", "s00p3rs3cr3tk3y"
+
+const-string v2, "%064x"
+
+const/4 v3, 0x1
+
+const-string v1, "&hash="
+
+
+Had to Google for help. Apprently the AndroidManifest.xml is key for this CTF.
+
+android:host="level13.hacker101.com"
+
+
+We start the device with a host, 
+
+adb shell am start -a android.intent.action.VIEW -d "http://level13.hacker101.com/flagBearer" com.hacker101.level13
+
+
+Notes:
+
+You can also issue an activity manager command directly from adb without entering a remote shell. For example:
+adb shell am start -a android.intent.action.VIEW
+
+use the -d option to send commands to the hardware device.
+
+Resources:
+
+https://leeadams.dev/blog/hacker1-ctf-intentional-exercise
+https://github.com/testerting/hacker101-ctf/tree/master/intentional_exercise/flag0

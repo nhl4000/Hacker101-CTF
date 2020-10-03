@@ -1,0 +1,6 @@
+^FLAG^ba1831cf33d2e474c9dc2eedc27f24d6d19878a1f32b96e400298f831feed7c6$FLAG$
+
+Had to Google for hint. Tweaked the ending of the url to have a "'".
+
+
+page/edit/'

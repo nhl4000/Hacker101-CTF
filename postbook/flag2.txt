@@ -1,0 +1,8 @@
+^FLAG^c2d3ca45fa216ef94648f9faa65ea416ceadcfe58d4ee087ecb15e1851f30bb4$FLAG$
+
+Editing the same post that was written by admin in flag1, by accesing
+
+index.php?page=edit.php?id=2
+
+and saving revealed a new flag.
+

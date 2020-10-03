@@ -1,0 +1,3 @@
+^FLAG^830f4c2524bb285eb135b98e7036ab2e41a5623eba7663a13f8943587c5d613a$FLAG$
+
+Got by visiting the background.png file which was not being loaded correctly (because it was not a PNG but a TXT file)

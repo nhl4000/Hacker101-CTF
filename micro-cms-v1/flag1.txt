@@ -1,0 +1,5 @@
+^FLAG^dcc99d7ed00cf2b1d0e6089322c3b97e1bd1126d571a104000375f39e5b17871$FLAG$
+
+Got on XSS attempt:
+<img src="" onerror=alert(1) />
+

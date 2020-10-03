@@ -1,0 +1,5 @@
+^FLAG^91326de007a61751e84d150f434d63db8693d54ab3da1408f914aacd543233b3$FLAG$
+
+Decompiled APK with Android Studio and found in thermostat/java/com.hacker101/level11/PayloadRequest
+
+
